@@ -2,10 +2,14 @@
 
 A fast, native IPTV player for **Android TV** and **Android phones**, in a single ~125 KB APK.
 
-Sign in with an Xtream Codes subscription and browse live channels, movies and series with a remote
-or by touch. No ads, no accounts, no tracking, no bundled content.
+Sign in with your own Xtream Codes compatible subscription and browse live channels, movies and
+series with a remote or by touch. No ads, no accounts, no tracking.
 
-![Live TV with the programme guide](docs/screenshots/live-tv.png)
+> **This is a player only.** It comes with no provider, no channels, no playlists and no streams,
+> and it is not affiliated with any IPTV service. It is intended solely for content you have the
+> legal right to watch. See the [legal disclaimer](DISCLAIMER.md).
+
+![Sign-in screen with QR pairing](docs/screenshots/sign-in.png)
 
 ## Features
 
@@ -21,18 +25,12 @@ or by touch. No ads, no accounts, no tracking, no bundled content.
 - **Phone pairing** — scan a QR code on the TV to type your sign-in on your phone.
 - **Large libraries** — the catalogue is stored in SQLite; 150,000+ titles stay smooth on a 2 GB box.
 
-<p>
-  <img src="docs/screenshots/sign-in.png" alt="Sign-in screen with QR pairing" width="49%">
-  <img src="docs/screenshots/live-tv.png" alt="Live TV" width="49%">
-</p>
-
 ## Requirements
 
 - Android 8.0 (API 26) or newer, phone or Android TV / Google TV.
 - An Xtream Codes compatible subscription: server address, username and password.
 
-This app is a player only. It ships with no channels, playlists or streams; you are responsible for
-the sources you use it with.
+The project cannot help you find a subscription or content; requests for sources are closed.
 
 ## Build
 
@@ -93,6 +91,18 @@ build-apk.ps1               aapt2 -> javac -> d8 -> zipalign -> apksigner
 
 Developed and tested on Android TV (Google TV streamer, Android 14). Touch support is new and has
 had less testing than remote control.
+
+## Legal
+
+- **No content is included or provided.** The app plays only what the server you enter delivers.
+- **Lawful use only.** Use it with sources you are authorised to access. The contributors do not
+  condone piracy, and you are responsible for complying with the laws that apply to you.
+- **No affiliation.** Names and logos shown in the app come from your own source and belong to
+  their owners.
+- **No data collection.** Your sign-in stays on your device.
+- **No warranty.** Provided "as is" under the MIT License.
+
+Full text: [DISCLAIMER.md](DISCLAIMER.md).
 
 ## License
 
