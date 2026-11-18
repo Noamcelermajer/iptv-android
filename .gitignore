@@ -1,0 +1,18 @@
+# Build output and signing keys
+build/
+dist/
+*.jks
+*.keystore
+*.apk
+*.idsig
+
+# Earlier prototype, kept locally only
+legacy-web/
+
+# Editor and OS files
+.idea/
+.vscode/
+.claude/
+*.iml
+Thumbs.db
+.DS_Store
