@@ -47,7 +47,14 @@ powershell -ExecutionPolicy Bypass -File build-apk.ps1
 The signed APK is written to `dist\iptv.apk`. The first build creates a local signing key in
 `build\iptv-release.jks`; keep that file if you want later builds to install as updates.
 
+## Download
+
+Get the latest APK from the [Releases page](https://github.com/Noamcelermajer/iptv-android/releases/latest).
+One universal APK covers Android TV, phones and tablets on every CPU type (the app has no native code).
+
 ## Install
+
+On a phone or tablet, open the downloaded APK. On Android TV:
 
 ```bash
 adb connect <device-ip>:5555
